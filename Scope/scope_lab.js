@@ -12,6 +12,15 @@ function show(){
     }
     show();
     
-console.log(functionVar); // Throws ReferenceError
-console.log(functionLet); // Throws ReferenceError
-console.log(functionConst); // Throws ReferenceError
+//console.log(functionVar); // Throws ReferenceError
+//console.log(functionLet); // Throws ReferenceError
+//console.log(functionConst); // Throws ReferenceError
+{
+let letVariable = "I am a let variable"
+const constVariable = "I am a const variable"
+var varVariable = "I am a var variable"
+}
+
+let letVariable = "I am a let variable"
+const constVariable = "I am a const variable"
+var varVariable = "I am a var variable"
